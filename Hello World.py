@@ -4,3 +4,4 @@ for i in range(0,36):
      a=map(str,"072101108108111032119111114108100033")[i-2:i+1]
      b+=chr(int(''.join(a)))
 print b
+raise SystemExit()
